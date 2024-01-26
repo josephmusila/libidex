@@ -1,0 +1,278 @@
+body {
+    font-size: 2vh; /* 2% of the viewport height */
+  }
+
+  /* .background {
+   
+    background: url(/images/man.jpeg) center/cover no-repeat fixed; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+  } */
+.hero-section{
+    width: 100%;
+    /* height: 70vh; */
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(150, 146, 146); */
+    /* background: url(/images/man.jpeg) center/cover no-repeat ; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    object-fit: cover;
+    /* background-position: ; */
+}
+.intro{
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.product-name{
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(53, 15, 15);
+    text-align: center;
+    /* text-align: center; */
+}
+.problem{
+    font-weight: 600;
+    font-size: 2vw;
+    color: rgb(0, 5, 0);
+    text-transform: uppercase;
+}
+
+.problem span{
+    color: rgb(14, 63, 1);
+}
+
+.solution{
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.image-wrapper{
+    /* background-color: rebeccapurple; */
+    height: 100%;
+    width: 100%;
+}
+
+.image-wrapper img{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.organic-wrapper{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 2rem;
+}
+
+.organic{
+    background-color: rgb(5, 78, 11);
+    width: max-content;
+    border-radius: 50%;
+    padding: 2rem;
+    height: 10rem;
+    width: 10rem;
+    text-align: center;
+}
+
+.percentage{
+    color: gold;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.natural{
+    color: wheat;
+}
+
+.treatments{
+    margin-top: 3rem;
+    background: rgba(255, 255, 255, 0.973);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+}
+
+
+.treatment-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    /* border: 1px solid ; */
+    width: 90%;
+    gap: 2rem;
+    /* background: rgba(255, 255, 255, 0.774); */
+    /* margin-right: 1rem; */
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.treatment-item p{
+    /* text-transform: capitalize; */
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(124, 106, 6);
+}
+
+
+
+.heartbeat{
+    color: rgb(163, 8, 59);
+}
+.medkit{
+    color: rgb(10, 10, 71);
+}
+
+.clock{
+    color: rgb(54, 90, 4);
+}
+
+.section-2{
+    /* height: 20vh; */
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.section-3{
+    height: 70vh;
+    background-color: beige;
+}
+
+.order-btn{
+    border: 1px solid gray;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    color: red;
+    font-weight: bold;
+    transition: 0.2s ease-in;
+}
+
+.order-btn:hover{
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+}
+
+.picture-life{
+    font-size: 1.2rem;
+}
+
+/* heart */
+
+.heart{
+/* height: 70vh; */
+width: 100%;
+background-color: rgb(255, 255, 255);
+padding: 2rem;
+}
+
+.heart-image-wrapper{
+    /* padding: 2rem; */
+    /* background-color: aqua; */
+    width: 90vw;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.heart-image-wrapper img{
+    width: 30rem;
+    height: 100%;
+    object-fit: fill;
+    /* background-color: red; */
+    /* margin-left: 2rem; */
+}
+
+.power-house{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.signs li{
+    margin-bottom: 1rem;
+}
+
+/* fast active */
+
+.fast-active{
+    padding: 1rem;
+    /* height: 70vh; */
+    width: 100%;
+    background-color: white;
+}
+
+.fast-details{
+    margin-top: 3rem;
+    padding-top: 2rem;
+    /* background-color: red; */
+}
+
+.active-image-wrapper{
+    /* background-color: aquamarine; */
+    /* height: 40rem; */
+    margin-bottom: 2rem;
+}
+
+.active-image-wrapper img{
+    height: 20rem;
+}
+
+.ingredient{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.ingredient-image{
+    height: 8rem;
+    width: 8rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    /* border-radius: 50%; */
+}
+
+.ingredient-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+    
+}
+
+.ingredient p{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.other-ingredients{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.other-ingredients span{
+    font-weight: bold;
+    color: rgb(2, 36, 2);
+}
