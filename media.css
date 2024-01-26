@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 980) {
     body{
         width: 100%;
         overflow-x: hidden;
@@ -52,7 +52,21 @@
     }
 
     .active-image-wrapper img{
-        width: 100%;
+        width: 80vw;
     }
     
   }
+
+  @media only screen and (min-width: 645px) and (max-width: 990px) {
+    .active-image-wrapper{
+        width: 50vw;
+        overflow: hidden;
+        /* background-color: rebeccapurple; */
+    }
+
+    .active-image-wrapper img{
+        width: 100%;
+    }
+    
+
+}
