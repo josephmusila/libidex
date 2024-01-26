@@ -44,5 +44,9 @@
         /* background-color: red; */
         /* margin-left: 2rem; */
     }
+
+    .active-image-wrapper{
+        width: 70%;
+    }
     
   }
