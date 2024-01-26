@@ -20,34 +20,35 @@ body {
     justify-content: center;
     align-items: center;
     /* background-color: rgb(150, 146, 146); */
-    /* background: url(/images/man.jpeg) center/cover no-repeat ; */
+    background: url(/images/hero2.jpg) center/cover no-repeat ;
     background-repeat: no-repeat;
     /* background-position: center; */
     object-fit: cover;
     /* background-position: ; */
 }
 .intro{
-    background-color: rgba(255, 255, 255, 0.589);
-    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 0.2rem;
     padding: 1rem;
 }
 .product-name{
-    font-size: 2vw;
+    font-size: 2rem;
     text-transform: uppercase;
-    font-weight: bold;
-    color: rgb(53, 15, 15);
+    font-weight: 700;
+    color: rgb(181, 212, 5);
     text-align: center;
     /* text-align: center; */
 }
 .problem{
     font-weight: 600;
     font-size: 2vw;
-    color: rgb(0, 5, 0);
+    color: rgb(249, 252, 249);
     text-transform: uppercase;
+    text-align: center;
 }
 
 .problem span{
-    color: rgb(14, 63, 1);
+    color: rgb(54, 223, 8);
 }
 
 .solution{
@@ -101,8 +102,8 @@ body {
 .treatments{
     margin-top: 3rem;
     background: rgba(255, 255, 255, 0.973);
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
     margin: auto;
     border: 1px solid rgba(0, 0, 0, 0.055);
 }
@@ -172,7 +173,7 @@ body {
 }
 
 .picture-life{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 /* heart */
