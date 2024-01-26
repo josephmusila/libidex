@@ -46,7 +46,13 @@
     }
 
     .active-image-wrapper{
-        width: 70%;
+        width: 80vw;
+        overflow: hidden;
+        /* background-color: rebeccapurple; */
+    }
+
+    .active-image-wrapper img{
+        width: 100%;
     }
     
   }
