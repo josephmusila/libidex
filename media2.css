@@ -1,0 +1,78 @@
+@media (max-width:990px){
+
+   
+   
+
+
+
+.navv{
+    display: none;
+}
+
+
+
+.product1-image{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    /* width: 70%; */
+    overflow: hidden;
+}
+
+.p1-image{
+    object-fit: cover;
+    /* background-color: blue; */
+    /* width: 100%; */
+}
+
+
+
+.product-name,.other-info,.notice,.big-sale,.functions{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shipping-item{
+    width: 100%;
+}
+
+
+
+
+
+
+
+.order-form{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+.fields input{
+    width: 100%;
+}
+
+.sect12-time{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.finish-order{
+    width: 100%;
+}
+}

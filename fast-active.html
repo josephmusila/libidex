@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="libidex.css">
+    <link rel="stylesheet" href="media2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="navbar" id="navbar">
+            <div>
+                <i class="fas fa-bars fa-2x  " style="color: white;" id="toggle"></i>
+            </div>
+
+            <div class="navv">
+                <p><a class="nav-item" href="index.html">Home </a></p>
+                <p><a class="nav-item" href="libidex.html">Libidex </a></p>
+                <p><a class="nav-item" href="fast-active.html">Fast Active</a></p>
+                <p><a class="nav-item" href="st-heart.html">St Heart</a></p>
+            </div>
+            <div class="nav-toggle">
+                <p><a href="index.html">Home</a></p>
+                <p><a href="fast-active.html">Fast Active</a></p>
+                <p><a href="libidex.html">Libidex </a></p>
+                <p><a href="st-heart.html">St Heart</a></p>
+            </div>
+
+        </div>
+        <div class="libidex-hero-section">
+            <div class="hero-content container ml-2 mr-2">
+                <h5 class="title" style="color: green;">FAST ACTIVE </h5>
+
+                <p class="item-description">Welcome to Fast Active, your ultimate solution for joint care and mobility
+                    enhancement. Our
+                    specially formulated cream is designed to comprehensively address a range of joint-related
+                    concerns, providing fast and effective relief for individuals seeking optimal joint health. Please
+                    note that Fast Active is not recommended for nursing mothers and individuals under 18 years
+                    old.</p>
+
+                <h4 class="text-success" style="text-transform: uppercase;">Read
+                     Ms Samantha Lelato's story on how fast active has transformed her life</h4>
+
+                <p><span class="text-success">Fast Active Cream</span> was a turning point in my journey to holistic
+                    health. I suffered from joint pain and stiffness for years and tried many treatments without
+                    success. The turning point came when my doctor recommended <span class="text-success">Rapid Active
+                        Cream</span>. At first, I was incredulous that other products only provided temporary relief.
+                    However, from the first application, the soothing and fast-acting properties of this cream are
+                    clearly visible. Instant relief and increased transformation is great.</p>
+
+                <p>One of the main features of <span class="text-success">Fast Active Cream</span> is its special
+                    formula combining natural ingredients known for their anti-inflammatory and anti-inflammatory
+                    properties. Unlike oral medications, these medications can be used in a targeted manner and directly
+                    treat the affected area without the side effects associated with treatment. I like its non-greasy
+                    texture, it absorbs quickly and leaves no residue.</p>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 story-image">
+                            <img src="female.webp" alt="">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <p>As I continued to incorporate the <span class="text-success">Rapid Activating Cream</span> into my
+                                daily life as recommended, the side effects became more pronounced. Sugar not only reduces my joint
+                                pain but also helps increase my mobility and daily comfort. It has become an integral part of my
+                                health, allowing me to participate in activities that once came with discomfort and limitations.</p>
+                       
+                                <p>In addition to the effectiveness of the <span class="text-success">Rapid Activation Cream</span>, its
+                                    usefulness is also important. Since the candy container is easy to use and carry, it is useful for
+                                    people who lead an active life. Whether at home, at work, or on the road, having <span
+                                        class="text-success">Fast Active Cream</span> at my fingertips has become an indispensable part
+                                    of my personal care kit.</p>
+                
+                            </div>
+                    </div>
+
+               
+
+                
+                <p><span class="text-success">Fast Active Cream</span> not only transformed my physical health, it also
+                    supported my health. It affected me mentally and emotionally. Being free from constant pain gives me
+                    a sense of normalcy and strength. I am grateful for this medicine and sincerely recommend it to
+                    everyone with joint disorders. It shows the power of new solutions in improving the quality of life
+                    of people looking for a good and simple way to manage the challenges of integration.</p>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="section12 container bg-light" style="background-image: url(./images/fast.jpg);">
+        <div class="order-form">
+            <h4 style="color: black; font-size: 2rem; text-align: center;">Order Fast Active</h4>
+            <p class="text-danger text-weight-bold results">*The results may vary from person to person*</p>
+            <p class="sect12-cost">New Price: 90.00 KES (50% DISCOUNT)</p>
+            <p class="normal-price">Normal price: 180.00 KES</p>
+            <p class="hurry">Hurry up and ask for a 50% discount
+
+                special offer expired:</p>
+            <p class="sect12-time">
+                <span id="hours">00</span>:
+                <span id="minutes">30</span>:
+                <span id="seconds">00</span>
+            </p>
+
+            <p class="time-d">
+                <span>Hrs</span>
+                <span>Mins</span>
+                <span>Secs</span>
+            </p>
+            <div class="fields">
+                <input type="text" placeholder="First & Last Name">
+                <input type="text" placeholder="Mobile Number">
+            </div>
+
+            <button class="finish-order">Finish Order</button>
+
+        </div>
+    </div>
+
+    <script>
+        sessionStorage.setItem('fast', 1800);
+        document.addEventListener("DOMContentLoaded", function () {
+  
+  let timeInSeconds = sessionStorage.getItem('fast');
+
+  
+  const hoursElement = document.getElementById("hours");
+  const minutesElement = document.getElementById("minutes");
+  const secondsElement = document.getElementById("seconds");
+
+ 
+  const timerInterval = setInterval(updateTimer, 1000);
+
+  function updateTimer() {
+  
+    const hours = Math.floor(timeInSeconds / 3600);
+    const minutes = Math.floor((timeInSeconds % 3600) / 60);
+    const seconds = timeInSeconds % 60;
+
+    sessionStorage.setItem('fast-hours', 1800);
+    sessionStorage.setItem('fast-mins', 1800);
+    sessionStorage.setItem('fast-secs', 1800);
+
+   
+    hoursElement.textContent = String(sessionStorage.getItem('fast-hours')).padStart(2, "0");
+    minutesElement.textContent = String(sessionStorage.getItem('fast-mins')).padStart(2, "0");
+    secondsElement.textContent = String(sessionStorage.getItem('fast-secs')).padStart(2, "0");
+
+   
+    if (timeInSeconds <= 0) {
+      clearInterval(timerInterval); // Stop the timer
+    //   alert("Time's up!"); // You can customize the action when the timer reaches 0
+    } else {
+      timeInSeconds--; // Decrement the time
+    }
+  }
+});
+    </script>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>     

@@ -1,0 +1,124 @@
+.libidex-hero-section{
+    /* height: 100vh; */
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.911);
+    display: flex;
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+   padding-bottom: 3rem;
+}
+
+.sticky-nav{
+    position: fixed;
+    top: 3;
+     background: rgb(10, 10, 77);
+   
+}
+
+.hero-content{
+    
+    /* height: 80vh; */
+    /* width: %; */
+  background: rgba(238, 235, 235, 0.911);
+    box-shadow: 0,8px,32px,0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.title{
+    margin: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+}
+
+.item-description{
+    /* font-size: 1.2rem; */
+}
+
+.libidex-image{
+    width: 100%;
+    /* height: 100%; */
+    overflow: hidden;
+    /* background-color: aquamarine; */
+
+}
+
+.libidex-image img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+}
+
+.item-other-info{
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    
+}
+
+.pricing-section{
+    padding: 2rem;
+}
+
+.pricing-section h6{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.quantity{
+    font-weight: bold;
+}
+
+.total{
+    font-weight: bold;
+}
+
+
+/* st heart */
+
+.storage{
+    padding-bottom: 3rem;
+}
+
+.heart-image{
+    width: 100%;
+    /* height: 100; */
+    overflow: hidden;
+}
+
+.heart-image img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+}
+
+.stages-action{
+    list-style: none;
+}
+
+.stages-action li{
+    margin-bottom: 1rem;
+}
+
+.story-image{
+    height: 20rem;
+    width: 13rem;
+    overflow: hidden;
+    /* object-fit: fill; */
+    margin-bottom: 2rem;
+}
+
+.story-image img{
+    width: 100%;
+    height: 100%;
+object-fit: cover;
+}
