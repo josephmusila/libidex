@@ -48,7 +48,7 @@
                     old.</p>
 
                 <h4 class="text-success" style="text-transform: uppercase;">Read
-                     Ms Samantha Lelato's story on how fast active has transformed her life</h4>
+                    Ms Samantha Lelato's story on how fast active has transformed her life</h4>
 
                 <p><span class="text-success">Fast Active Cream</span> was a turning point in my journey to holistic
                     health. I suffered from joint pain and stiffness for years and tried many treatments without
@@ -63,33 +63,51 @@
                     treat the affected area without the side effects associated with treatment. I like its non-greasy
                     texture, it absorbs quickly and leaves no residue.</p>
 
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12 story-image">
-                            <img src="female.webp" alt="">
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <p>As I continued to incorporate the <span class="text-success">Rapid Activating Cream</span> into my
-                                daily life as recommended, the side effects became more pronounced. Sugar not only reduces my joint
-                                pain but also helps increase my mobility and daily comfort. It has become an integral part of my
-                                health, allowing me to participate in activities that once came with discomfort and limitations.</p>
-                       
-                                <p>In addition to the effectiveness of the <span class="text-success">Rapid Activation Cream</span>, its
-                                    usefulness is also important. Since the candy container is easy to use and carry, it is useful for
-                                    people who lead an active life. Whether at home, at work, or on the road, having <span
-                                        class="text-success">Fast Active Cream</span> at my fingertips has become an indispensable part
-                                    of my personal care kit.</p>
-                
-                            </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 story-image">
+                        <img src="female.webp" alt="">
                     </div>
+                    <div class="col-lg-6 col-md-12">
+                        <p>As I continued to incorporate the <span class="text-success">Rapid Activating Cream</span>
+                            into my
+                            daily life as recommended, the side effects became more pronounced. Sugar not only reduces
+                            my joint
+                            pain but also helps increase my mobility and daily comfort. It has become an integral part
+                            of my
+                            health, allowing me to participate in activities that once came with discomfort and
+                            limitations.</p>
 
-               
+                        <p>In addition to the effectiveness of the <span class="text-success">Rapid Activation
+                                Cream</span>, its
+                            usefulness is also important. Since the candy container is easy to use and carry, it is
+                            useful for
+                            people who lead an active life. Whether at home, at work, or on the road, having <span
+                                class="text-success">Fast Active Cream</span> at my fingertips has become an
+                            indispensable part
+                            of my personal care kit.</p>
 
-                
-                <p><span class="text-success">Fast Active Cream</span> not only transformed my physical health, it also
-                    supported my health. It affected me mentally and emotionally. Being free from constant pain gives me
-                    a sense of normalcy and strength. I am grateful for this medicine and sincerely recommend it to
-                    everyone with joint disorders. It shows the power of new solutions in improving the quality of life
-                    of people looking for a good and simple way to manage the challenges of integration.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+
+                        <p><span class="text-success">Fast Active Cream</span> not only transformed my physical health,
+                            it also
+                            supported my health. It affected me mentally and emotionally. Being free from constant pain
+                            gives me
+                            a sense of normalcy and strength. I am grateful for this medicine and sincerely recommend it
+                            to
+                            everyone with joint disorders. It shows the power of new solutions in improving the quality
+                            of life
+                            of people looking for a good and simple way to manage the challenges of integration.</p>
+
+                    </div>
+                    <div class="col-lg-6 col-md-12 story-image">
+                        <img src="./images/fast6.jpg" alt="">
+                    </div>
+                </div>
+
 
             </div>
         </div>
@@ -136,44 +154,69 @@
         </div>
     </div>
 
+    <div class="reviews container">
+        <h5 class="m-4 text-danger">Reviews</h5>
+        <div class="row">
+            <div class="col-lg-2 col-md-12">
+                <div class="review-image">
+                    <img src="profile2.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12">
+                <small>
+                    Fast Active Cream is a game-changer for anyone dealing with aches and swelling. This topical
+                    solution lives up to its name, providing rapid relief and promoting a soothing sensation upon
+                    application. I&#39;ve been using it for a variety of discomforts, from post-workout soreness to everyday
+                    muscle strains, and the results have been impressive. The cream&#39;s quick absorption and non-greasy
+                    formula make it convenient for on-the-go use. The blend of active ingredients seems to target
+                    inflammation effectively, providing a noticeable reduction in swelling. What sets Fast Active Cream
+                    apart is its versatility – it&#39;s become a staple in my wellness routine. Whether it&#39;s joint pain or muscle
+                    stiffness, this cream consistently delivers fast and reliable relief. For those seeking an efficient
+                    solution for aches and swelling, Fast Active Cream is undoubtedly worth considering.
+                </small>
+            </div>
+        </div>
+
+    </div>
+
     <script>
         sessionStorage.setItem('fast', 1800);
         document.addEventListener("DOMContentLoaded", function () {
-  
-  let timeInSeconds = sessionStorage.getItem('fast');
 
-  
-  const hoursElement = document.getElementById("hours");
-  const minutesElement = document.getElementById("minutes");
-  const secondsElement = document.getElementById("seconds");
+            let timeInSeconds = sessionStorage.getItem('fast');
 
- 
-  const timerInterval = setInterval(updateTimer, 1000);
 
-  function updateTimer() {
-  
-    const hours = Math.floor(timeInSeconds / 3600);
-    const minutes = Math.floor((timeInSeconds % 3600) / 60);
-    const seconds = timeInSeconds % 60;
+            const hoursElement = document.getElementById("hours");
+            const minutesElement = document.getElementById("minutes");
+            const secondsElement = document.getElementById("seconds");
 
-    sessionStorage.setItem('fast-hours', 1800);
-    sessionStorage.setItem('fast-mins', 1800);
-    sessionStorage.setItem('fast-secs', 1800);
 
-   
-    hoursElement.textContent = String(sessionStorage.getItem('fast-hours')).padStart(2, "0");
-    minutesElement.textContent = String(sessionStorage.getItem('fast-mins')).padStart(2, "0");
-    secondsElement.textContent = String(sessionStorage.getItem('fast-secs')).padStart(2, "0");
+            const timerInterval = setInterval(updateTimer, 1000);
 
-   
-    if (timeInSeconds <= 0) {
-      clearInterval(timerInterval); // Stop the timer
-    //   alert("Time's up!"); // You can customize the action when the timer reaches 0
-    } else {
-      timeInSeconds--; // Decrement the time
-    }
-  }
-});
+            function updateTimer() {
+
+                const hours = Math.floor(timeInSeconds / 3600);
+                const minutes = Math.floor((timeInSeconds % 3600) / 60);
+                const seconds = timeInSeconds % 60;
+
+                sessionStorage.setItem('fast-hours', 1800);
+                sessionStorage.setItem('fast-mins', 1800);
+                sessionStorage.setItem('fast-secs', 1800);
+
+
+                hoursElement.textContent = String(sessionStorage.getItem('fast-hours')).padStart(2, "0");
+                minutesElement.textContent = String(sessionStorage.getItem('fast-mins')).padStart(2, "0");
+                secondsElement.textContent = String(sessionStorage.getItem('fast-secs')).padStart(2, "0");
+
+
+                if (timeInSeconds <= 0) {
+                    clearInterval(timerInterval); // Stop the timer
+                    //   alert("Time's up!"); // You can customize the action when the timer reaches 0
+                } else {
+                    timeInSeconds--; // Decrement the time
+                }
+            }
+        });
     </script>
     <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -182,4 +225,4 @@
 
 </body>
 
-</html>     
+</html>

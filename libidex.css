@@ -122,3 +122,27 @@
     height: 100%;
 object-fit: cover;
 }
+
+
+.reviews{
+    margin-top: 2rem;
+    border: 1px solid rgba(128, 128, 128, 0.276);
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+
+.review-image{
+    margin-top: 2rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.review-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
