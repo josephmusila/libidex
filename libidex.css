@@ -38,7 +38,10 @@
 }
 
 .item-description{
-    /* font-size: 1.2rem; */
+    font-size: 1.4rem;
+    /* color: red; */
+    line-height: 2rem;
+    font-weight: 500;
 }
 
 .libidex-image{
@@ -174,7 +177,20 @@ border-radius: 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 0.9rem;
+    
     color: black;
     margin-bottom: 2rem;
+}
+
+/* .item-description */
+
+p{
+    font-size: 0.4rem;
+}
+.hero-content p{
+    font-size: 0.9rem;
+}
+.normal-price{
+    color: green;
+    font-size: 1rem;
 }
