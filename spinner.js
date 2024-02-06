@@ -15,12 +15,12 @@ const rotationValues = [
 const data = [16, 16, 16, 16, 16, 16];
 //background color for each piece
 var pieColors = [
-  "#8b35bc",
-  "#b163da",
-  "#8b35bc",
-  "#b163da",
-  "#8b35bc",
-  "#b163da",
+  "#600014",
+  "#71020d",
+  "#ab092a",
+  "#c91e41",
+  "#f5486b",
+  "#ff96ac",
 ];
 //Create chart
 let myChart = new Chart(wheel, {
@@ -30,7 +30,7 @@ let myChart = new Chart(wheel, {
   type: "pie",
   data: {
     //Labels(values which are to be displayed on chart)
-    labels: ["50%", "0%", "75%", "25%", "75%", "90%"],
+    labels: ["50%", "0%", "65%", "25%", "75%", "90%"],
     //Settings for dataset/pie
     datasets: [
       {
