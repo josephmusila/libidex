@@ -8,11 +8,19 @@
     <link rel="stylesheet" href="index2.css">
     <link rel="stylesheet" href="libidex.css">
     <link rel="stylesheet" href="media2.css">
+    <link rel="stylesheet" href="spinner.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
+
+
+
 
 <body>
     <div class="container-fluid">
@@ -37,12 +45,25 @@
         </div>
         <div class="libidex-hero-section ">
             <div class="hero-content container ml-2 mr-2">
-                <h5 class="title" style="color: rgb(128, 0, 0);">ST Heart </h5>
+                
 
-                <p class="item-description">Embark on a transformative journey with St. Heart, your trusted partner in
-                    comprehensive
-                    cardiovascular support. Our product is meticulously crafted to enhance heart health through a
-                    natural plant composition, offering a course-based solution with no side effects.</p>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 drug-name">
+                        <h5 class="title" style="color: rgb(128, 0, 0);">ST Heart </h5>
+                        <div class="story-imacge">
+                            <img src="./images/stheart6.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 p-4 top-text">
+                        <p class="item-description">Embark on a transformative journey with St. Heart, your trusted partner in
+                            comprehensive
+                            cardiovascular support. Our product is meticulously crafted to enhance heart health through a
+                            natural plant composition, offering a course-based solution with no side effects.</p>
+                    </div>
+                </div>
+
+
+               
 
                 <h4 class="text-danger" style="text-transform: uppercase;">Mr Alex Botosani narrates how St heart helped
                     him fight blood pressure</h4>
@@ -50,8 +71,7 @@
                 <p>My <span class="text-danger">high blood pressure</span> treatment was a tightrope walk filled with
                     anxiety and uncertainty until I discovered <span class="text-danger">ST Heart</span>'s high blood
                     pressure medication. At age 53, I was diagnosed with <span class="text-danger">high blood
-                        pressure</span>, which caused many problems in finding effective and preventable treatment. The
-                    side effects of previous medications were daunting, ranging from fatigue to dizziness. Needing a
+                        pressure</span>, which caused many problems in finding effective and preventable treatment.  Needing a
                     solution, I was introduced to <span class="text-danger">ST Heart</span> by my cardiologist, who
                     raved about its new approach to treating <span class="text-danger">high blood pressure</span>.</p>
 
@@ -90,22 +110,36 @@
                     patient support made me feel comfortable and supported throughout my treatment. This superior
                     approach to patient care has contributed greatly to <span class="text-danger">ST Heart</span>'s
                     success in treating hypertension.</p>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 p-4 top-text">
+                            <p>In addition to my own experience, I have seen the transformation that <span class="text-danger">ST
+                                Heart</span> has made in the lives of others in the community. Stories about health and wellness
+                            bring us together. This is more than just supplement; It is a ray of hope for people with <span
+                                class="text-danger">high blood pressure</span>. <span class="text-danger">ST Heart</span> has
+                            been a game-changer not only for me but for countless people who now have their lives back thanks to
+                            this remarkable revolution in heart supplement.</p>
+                            <p>As I look back on my journey with <span class="text-danger">ST Heart</span>, I am grateful for the
+                                advances in supplement that have led to this revolutionary supplement. I am proof that a <span
+                                    class="text-danger">high blood pressure</span> test does not necessarily mean a bad lifestyle.
+                                <span class="text-danger">ST Heart</span> gave me the tools to take control of my health and
+                                rediscover my joy of life. I wholeheartedly support this supplement, not only as a patient but also as
+                                someone who has experienced firsthand the transformative power of <span class="text-danger">ST
+                                    Heart</span>.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-md-12 drug-name">
+                           
+                            <div class="story-image">
+                                <img src="./images/stheart7.jpg" alt="">
+                            </div>
+                        </div>
+                       
+                    </div>
+    
+    
 
-                <p>In addition to my own experience, I have seen the transformation that <span class="text-danger">ST
-                        Heart</span> has made in the lives of others in the community. Stories about health and wellness
-                    bring us together. This is more than just supplement; It is a ray of hope for people with <span
-                        class="text-danger">high blood pressure</span>. <span class="text-danger">ST Heart</span> has
-                    been a game-changer not only for me but for countless people who now have their lives back thanks to
-                    this remarkable revolution in heart supplement.</p>
 
-                <p>As I look back on my journey with <span class="text-danger">ST Heart</span>, I am grateful for the
-                    advances in supplement that have led to this revolutionary supplement. I am proof that a <span
-                        class="text-danger">high blood pressure</span> test does not necessarily mean a bad lifestyle.
-                    <span class="text-danger">ST Heart</span> gave me the tools to take control of my health and
-                    rediscover my joy of life. I wholeheartedly support this supplement, not only as a patient but also as
-                    someone who has experienced firsthand the transformative power of <span class="text-danger">ST
-                        Heart</span>.
-                </p>
+              
 
 
             </div>
@@ -114,12 +148,19 @@
 
 
     </div>
+    <div class="spin-wrapper" id="spinner">
+        <div class="spin-container">
+          <canvas id="wheel"></canvas>
+          <button id="spin-btn">Spin</button>
+          <img class="spin-img" src="spinner-arrow-.svg" alt="spinner-arrow" />
+        </div>
+        <div id="final-value">
+          <p>   Spin Button To Get Discount and Continue with Ordering</p>
+        </div>
+      </div>
 
 
-
-
-
-    <div class="section12 bg-light container" style="background-image: url(./images/stheart3.jpg);">
+    <div id="form" class="section12 bg-light container" style="background-image: url(./images/stheart3.jpg);">
         <div class="order-form">
             <h4 style="color: black; font-size: 2rem; text-align: center;">Order St Heart</h4>
             <p class="text-danger text-weight-bold results">*The results may vary from person to person*</p>
@@ -154,35 +195,89 @@
         <div class="row">
             <div class="col-lg-2 col-md-12">
                 <div class="review-image">
-                    <img src="male-h.jpeg" alt="">
+                    <img src="profile3.png" alt="">
                 </div>
             </div>
             <div class="col-lg-9 col-md-12">
-                <small>
-                    ST Heart stands out as the superior solution among all cardiovascular medications. Initially, I
-                    relied
-                    on Esidrex and later Erynit, acknowledging their traditional nature, yet I hesitated to visit the
-                    doctor
-                    regularly. Occasionally, I would take these pills to address spikes in blood pressure or discomfort
-                    in
-                    my heart. However, their effectiveness dwindled over time, prompting me to seek professional
-                    advice. A young doctor, seemingly prioritizing the well-being of patients over financial interests,
-                    recommended trying the innovative ST Heart. From the moment I commenced its use, ST Heart
-                    exhibited immediate results, swiftly lowering my blood pressure. Following the doctor&#39;s
-                    guidance, I
-                    continued the course, and within three weeks, hypertension became a distant memory. Notably,
-                    long-standing varicose veins, a decade-long ailment, vanished entirely. Even a lingering
-
-                    gynaecological issue disappeared without a trace. ST Heart has ushered in a remarkable
-                    transformation, restoring my well-being to a state reminiscent of my youth.
+                <p class="mt-4" style="font-weight: bold; font-size: 0.7rem;">Allan Njagi</p>
+                <small style="font-size: 0.9rem;">
+                    In terms of controlling my blood pressure, the ST Heart Supplement has been revolutionary.
+                    Finding a workable answer was crucial for someone who has battled hypertension. My
+                    expectations were exceeded by this supplement; it consistently produced positive effects and
+                    helped me keep my blood pressure at a healthy level. I feel inspired and secure in my road
+                    toward cardiovascular fitness because of its natural ingredients and demonstrated efficacy.
+                    Anyone looking for a dependable method to enhance heart health will find that the ST Heart
+                    Supplement is truly a blessing.
                 </small>
-                <p class="mt-4" style="font-weight: bold; font-size: 0.7rem;">20th Jan 2024</p>
+                <p class="mt-4" style="font-weight: bold; font-size: 0.7rem;">30th Jan 2024</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-12">
+                <div class="review-image">
+                    <img src="profile3.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12">
+                <p class="mt-4" style="font-weight: bold; font-size: 0.7rem;">Mary Akeka</p>
+                <small style="font-size: 0.9rem;">
+                    The ST Heart Supplement has changed the game for me in my pursuit of heart health. I used this
+                    supplement since I had a history of elevated cholesterol, and the outcomes have been
+                    remarkable. Not only has it reduced my levels of harmful cholesterol, but it has also given me
+                    more vitality and energy. I can rest easy knowing that I'm taking proactive measures to improve
+                    my heart health thanks to its natural ingredients and scientifically supported formulation. I
+                    wholeheartedly urge anyone looking for a dependable cholesterol management treatment to try
+                    ST Heart Supplement.
+                </small>
+                <p class="mt-4" style="font-weight: bold; font-size: 0.7rem;">30th Jan 2024</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-12">
+                <div class="review-image">
+                    <img src="profile.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12">
+                <p class="mt-4" style="font-weight: bold; font-size: 0.7rem;">Alema Kimeko</p>
+                <small style="font-size: 0.9rem;">
+                    For me, the ST Heart Supplement has been nothing less than a blessing. For someone who
+                    places a high priority on cardiovascular health, it was crucial to locate a vitamin that promotes
+                    healthy blood circulation. My general well-being has significantly improved since I started
+                    including ST Heart in my everyday routine. I feel like my circulation is working better, and I have
+                    more energy to take on every day with enthusiasm. I'm sure that by using ST Heart, I'm being
+                    proactive in preserving my heart health. Strongly advised for anyone looking for the best
+                    possible cardiovascular assistance!
+                </small>
+                <p class="mt-4" style="font-weight: bold; font-size: 0.7rem;">19th Jan 2024</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-12">
+                <div class="review-image">
+                    <img src="profile.png" alt="">
+                    
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12">
+                <p class="mt-4" style="font-weight: bold; font-size: 0.7rem;">Abani Unime</p>
+                <small style="font-size: 0.9rem;">
+                    The ST Heart Supplement has changed the game for me in terms of heart health. I'm aware of
+                    the dangers connected to cardiovascular problems; therefore, this pill has been a comfort. Its
+                    powerful combination of substances aims to lower the risk of heart attacks, particularly by
+                    providing me with peace of mind and a proactive approach to my health. I feel empowered
+                    knowing that I'm protecting my heart proactively with every pill. It is essential for anyone who
+                    places a high priority on their cardiovascular health.
+                </small>
+                <p class="mt-4" style="font-weight: bold; font-size: 0.7rem;">10th Jan 2024</p>
             </div>
         </div>
 
     </div>
 
     <script>
+      
+
         document.addEventListener("DOMContentLoaded", function () {
 
             let timeInSeconds = 30 * 60; // 30 minutes
@@ -216,11 +311,18 @@
             }
         });
     </script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+<!-- Chart JS Plugin for displaying text over chart -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"></script>
     <script src="index.js"></script>
+    <script src="spinner.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+      
+        <script src="script.js"></script>
+      </body>
+    </html>
 
 </body>
 
