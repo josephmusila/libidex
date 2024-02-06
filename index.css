@@ -220,7 +220,7 @@ body {
 .heart{
 /* height: 70vh; */
 width: 100%;
-background-color: rgba(255, 255, 255, 0.774);
+background-color: rgba(255, 255, 255, 0.916);
 padding: 0.5rem;
 border-radius: 1rem;
 padding-bottom: 2rem;
@@ -263,7 +263,7 @@ padding-bottom: 2rem;
     padding-bottom: 2rem;
     /* height: 70vh; */
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.96);
 }
 
 .fast-details{
@@ -289,8 +289,8 @@ padding-bottom: 2rem;
 }
 
 .ingredient-image{
-    height: 8rem;
-    width: 8rem;
+    height: 5rem;
+    width: 5rem;
     margin-top: 1rem;
     overflow: hidden;
     /* border-radius: 50%; */
@@ -307,7 +307,7 @@ padding-bottom: 2rem;
 
 .ingredient p{
     margin-left: 2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .other-ingredients{
@@ -318,4 +318,9 @@ padding-bottom: 2rem;
 .other-ingredients span{
     font-weight: bold;
     color: rgb(2, 36, 2);
+}
+
+.activve{
+    color: rgb(70, 199, 11);
+    /* background: black; */
 }

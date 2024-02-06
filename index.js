@@ -1,5 +1,14 @@
 
+
+
 $(document).ready(function(){
+  var element = sessionStorage.getItem("active");
+console.log(element);
+var item=document.getElementById(element);
+item.classList.add("activve");
+item.style.color="red";
+  
+
     // stickyNavbar();
     var navbarOffset = $("#navbar").offset().top;
 
@@ -21,6 +30,17 @@ $(document).ready(function(){
     })
 });
 
+
+function setActive(id){
+  sessionStorage.setItem("active",id)
+  activeElement = document.getElementById(id);
+  activeElement.classList.add("activve");
+  
+  console.log(id)
+
+
+ 
+}
 
 
 function stickyNavbar(){
