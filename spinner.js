@@ -16,14 +16,14 @@ const rotationValues = [
 const data = [12, 12, 12, 12, 12, 12,12,12];
 //background color for each piece
 var pieColors = [
-  "#FF3361",
-  "#B70DC2 ",
-  "#0D3EC2",
-  "#079500 ",
-  "#FF3361",
-  "#D3D605",
-  "#FF3361 ",
-  '#E8C500'
+  "#e43e52",
+  "#ba60a5 ",
+  "#197ab3",
+  "#18a45b",
+  "#e43e52",
+  "#df9420",
+  "#e43e52 ",
+  '#ffe401'
 ];
 //Create chart
 let myChart = new Chart(wheel, {
@@ -66,13 +66,13 @@ const valueGenerator = (angleValue) => {
   for (let i of rotationValues) {
     //if the angleValue is between min and max then display it
     if (angleValue >= i.minDegree && angleValue <= i.maxDegree) {
-      finalValue.innerHTML = `<p>Discount: 50%</p>`;
+      finalValue.innerHTML = `<p>Congratulations!! Discount: 50%</p>`;
       spinBtn.disabled = false;
      
       setTimeout(() => {
         $('#spinner').toggle()
         $('#form').toggle()
-      }, 1000);
+      }, 2000);
      
       break;
     }

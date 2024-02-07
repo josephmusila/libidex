@@ -32,7 +32,7 @@
 .title{
     margin: 2rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 400;
     /* color: red; */
     text-transform: uppercase;
@@ -196,7 +196,7 @@ border-radius: 1rem;
 /* .item-description */
 
 .hero-content p{
-    font-size: 0.9rem;
+    font-size: 1.3rem;
 }
 .normal-price{
     color: green;
