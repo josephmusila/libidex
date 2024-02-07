@@ -20,6 +20,10 @@
         /* background-color: red; */
     }
 
+    .congrats{
+        width: 80%;
+    }
+
     .problem{
         font-size: 2rem;
     }
