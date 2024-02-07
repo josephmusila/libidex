@@ -23,7 +23,7 @@ var pieColors = [
   "#e43e52",
   "#df9420",
   "#e43e52 ",
-  '#ffe401'
+  '#d8bf00'
 ];
 //Create chart
 let myChart = new Chart(wheel, {
@@ -54,7 +54,7 @@ let myChart = new Chart(wheel, {
       },
       //display labels inside pie chart
       datalabels: {
-        color: "#ffffff",
+        color: "#000000",
         formatter: (_, context) => context.chart.data.labels[context.dataIndex],
         font: { size: 24 },
       },
