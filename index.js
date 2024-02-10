@@ -3,11 +3,11 @@
 
 $(document).ready(function(){
   // sessionStorage.setItem("active","home")
-  var element = sessionStorage.getItem("active");
+  // var element = sessionStorage.getItem("active");
 // console.log(element);
-var item=document.getElementById(element);
-item.classList.add("activve");
-item.style.color="red";
+// var item=document.getElementById(element);
+// item.classList.add("activve");
+// item.style.color="red";
   
 
     // stickyNavbar();
