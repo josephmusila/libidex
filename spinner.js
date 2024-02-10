@@ -133,3 +133,35 @@ function closeDialog(){
 
 
 
+document.addEventListener("DOMContentLoaded", function () {
+  
+  let timeInSeconds = 30 * 60; // 30 minutes
+
+  
+  const hoursElement = document.getElementById("hours");
+  const minutesElement = document.getElementById("minutes");
+  const secondsElement = document.getElementById("seconds");
+
+ 
+  const timerInterval = setInterval(updateTimer, 1000);
+
+  function updateTimer() {
+  
+    const hours = Math.floor(timeInSeconds / 3600);
+    const minutes = Math.floor((timeInSeconds % 3600) / 60);
+    const seconds = timeInSeconds % 60;
+
+   
+    hoursElement.textContent = String(hours).padStart(2, "0");
+    minutesElement.textContent = String(minutes).padStart(2, "0");
+    secondsElement.textContent = String(seconds).padStart(2, "0");
+
+   
+    if (timeInSeconds <= 0) {
+      clearInterval(timerInterval); // Stop the timer
+      alert("Time's up!"); // You can customize the action when the timer reaches 0
+    } else {
+      timeInSeconds--; // Decrement the time
+    }
+  }
+});
