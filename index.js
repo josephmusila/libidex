@@ -26,7 +26,8 @@ item.style.color="red";
     });
 
     $('#toggle').click(function(){
-        $('.nav-toggle').toggle()
+        $('.nav-toggle').toggle();
+        console.log("hello")
     })
 });
 
