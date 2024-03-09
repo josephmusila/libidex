@@ -82,12 +82,12 @@
     width: 500px;
     background-color: #c5bfbf;
 border-radius: 1rem;
-    padding: 2rem;
+    /* padding: 1rem; */
     margin: auto;
     /* height: 30rem; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:stretch;
     align-items: center;
     position: relative;
     overflow: hidden;
@@ -182,3 +182,23 @@ border-radius: 1rem;
     border-radius: 0.7rem;
 }
 
+
+
+/* form */
+
+.new-form{
+    height:400px;
+    width: 400px;
+    overflow: hidden;
+    object-fit: contain;
+    margin: auto;
+    /* background-color: red; */
+
+}
+#zf_div_MhZx92PMm6-rAKDQ3GOBSAuUPpvtlcnliTQPggAlTnk{
+    height: 100%;
+    width: 100%;
+}
+.section-container{
+    background-color: #13233b00 !important;
+}
